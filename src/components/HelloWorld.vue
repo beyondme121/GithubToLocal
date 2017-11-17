@@ -27,6 +27,17 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
+  },
+  methods: {
+    callOne () {
+      alert('hello world')
+    }
+  },
+  mounted () {
+    console.log('init')
+  },
+  created () {
+    alert('hello')
   }
 }
 </script>
