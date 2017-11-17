@@ -27,7 +27,7 @@ export default {
     return {
       msg: 'Welcome to Your Vue.js App',
       param: 'what',
-      username: 'zhicheng'
+      
     }
   },
   methods: {
